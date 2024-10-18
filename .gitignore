@@ -1,0 +1,8 @@
+*.o
+prog
+build/
+.tmp
+.log
+.DS_Store
+Thumbs.db
+*~
