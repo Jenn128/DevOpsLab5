@@ -1,3 +1,5 @@
 prog: testCProgram.o
 	gcc -o prog testCProgram.o
-	gcc -c -o testCProgram.o testCProgram.c
+
+testCProgram.o: TestCProgram.c
+	gcc -c -c testCProgram.o TestCProgram.c
